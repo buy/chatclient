@@ -14,6 +14,7 @@
 		49D2B22D1BEC12AA0097FF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B22B1BEC12AA0097FF7A /* Main.storyboard */; };
 		49D2B22F1BEC12AA0097FF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B22E1BEC12AA0097FF7A /* Assets.xcassets */; };
 		49D2B2321BEC12AA0097FF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D2B2301BEC12AA0097FF7A /* LaunchScreen.storyboard */; };
+		49D2B23B1BEC18000097FF7A /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2B23A1BEC18000097FF7A /* ChatViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		49D2B22E1BEC12AA0097FF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D2B2311BEC12AA0097FF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D2B2331BEC12AA0097FF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D2B2391BEC18000097FF7A /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		49D2B23A1BEC18000097FF7A /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		D4EB910788054B5FF26BBF8A /* Pods-charclient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-charclient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-charclient/Pods-charclient.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC1845ACF08AB1D9D2C72ED /* Pods-charclient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-charclient.release.xcconfig"; path = "Pods/Target Support Files/Pods-charclient/Pods-charclient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				49D2B2281BEC12AA0097FF7A /* ViewController.h */,
 				49D2B2291BEC12AA0097FF7A /* ViewController.m */,
 				49D2B22B1BEC12AA0097FF7A /* Main.storyboard */,
+				49D2B2391BEC18000097FF7A /* ChatViewController.h */,
+				49D2B23A1BEC18000097FF7A /* ChatViewController.m */,
 				49D2B22E1BEC12AA0097FF7A /* Assets.xcassets */,
 				49D2B2301BEC12AA0097FF7A /* LaunchScreen.storyboard */,
 				49D2B2331BEC12AA0097FF7A /* Info.plist */,
@@ -226,6 +231,7 @@
 			files = (
 				49D2B22A1BEC12AA0097FF7A /* ViewController.m in Sources */,
 				49D2B2271BEC12AA0097FF7A /* AppDelegate.m in Sources */,
+				49D2B23B1BEC18000097FF7A /* ChatViewController.m in Sources */,
 				49D2B2241BEC12AA0097FF7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
